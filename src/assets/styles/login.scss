@@ -1,0 +1,25 @@
+.login {
+  background-image: url("../images/login-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    min-width: 300px;
+
+    .login-button-connector {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .error-msg {
+      margin-bottom: 0;
+    }
+  }
+}

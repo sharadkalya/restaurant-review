@@ -1,0 +1,72 @@
+@import "./assets/styles/login";
+@import "./assets/styles/loader";
+@import "./assets/styles/header";
+@import "./assets/styles/listing.scss";
+@import "./assets/styles/modal.scss";
+@import "./assets/styles/add-restaurant.scss";
+@import "./assets/styles/common.scss";
+@import "./assets/styles/restaurant.scss";
+
+.with-header-wrapper {
+  padding-top: 60px;
+}
+
+.error-msg {
+  color: rgb(175, 18, 18);
+}
+
+img {
+  max-width: 100%;
+}
+
+.ratings {
+  margin-top: 10px;
+  .star {
+    color: rgb(255, 187, 0);
+  }
+}
+
+.button-with-icon {
+  .button-with-icon-label {
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.typography-button {
+  display: inline;
+  cursor: pointer;
+  user-select: none;
+}
+
+.below-header {
+  padding-top: 70px;
+}
+
+.datagrid-container {
+  height: 400px;
+  width: 100%;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  margin: 15px 10px;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.user-mgmt-btns-wrapper {
+  display: flex;
+  max-width: 200px;
+  margin: 10px;
+  justify-content: space-between;
+}

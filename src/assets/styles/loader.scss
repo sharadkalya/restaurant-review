@@ -1,0 +1,22 @@
+.full-screen-loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+  .full-screen-loader-inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.full-screen-loader.bg {
+  background-image: url("../images/login-bg.jpg");
+  background-size: cover;
+}

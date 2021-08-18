@@ -1,0 +1,50 @@
+.restaurant-image-wrapper {
+  img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+}
+
+.restaurant-details {
+  .review-list-item {
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .add-review-form {
+    min-width: 300px;
+  }
+
+  .single-rest-details {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .reviews-filter-container {
+    padding: 15px 10px;
+  }
+
+  .single-rest-address,
+  .single-rest-email {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+  }
+
+  .single-rest-email-text {
+    margin-left: 5px;
+  }
+
+  .single-rest-rating {
+    margin-top: 5px;
+  }
+
+  .single-rest-imag-skeleton {
+    width: 100%;
+  }
+
+  .pending-review-wrapper {
+    margin-top: 10px;
+  }
+}

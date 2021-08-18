@@ -1,0 +1,29 @@
+.add-restaurant-form {
+  @media screen and (min-width: 400px) {
+    min-width: 300px;
+    min-height: 300px;
+  }
+  @media screen and (max-width: 399px) {
+    min-width: 200px;
+  }
+
+  .add-restaurant-title {
+    margin-bottom: 10px;
+  }
+}
+
+.add-restaurant-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 10px;
+}
+
+.add-review-form {
+  @media screen and (min-width: 400px) {
+    min-width: 300px;
+  }
+
+  @media screen and (max-width: 399px) {
+    min-width: 200px;
+  }
+}

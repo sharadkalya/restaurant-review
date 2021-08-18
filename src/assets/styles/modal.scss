@@ -1,0 +1,19 @@
+.material-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-modal-inner {
+  display: flex;
+  background: white;
+  overflow-y: scroll;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.material-modal-fade {
+  max-width: 80%;
+  max-height: 70%;
+  overflow-y: scroll;
+}

@@ -1,0 +1,13 @@
+.file-upload-container {
+  .file-upload-label {
+    .file-upload-input {
+      display: none;
+    }
+    p.MuiTypography-root.MuiTypography-body1 {
+      margin-top: 10px;
+    }
+  }
+  .MuiLinearProgress-root.MuiLinearProgress-colorPrimary.MuiLinearProgress-determinate {
+    margin-top: 10px;
+  }
+}
